@@ -39,7 +39,7 @@ module.exports.run = async (bot, message, arguments) => {
 
             var embedParent = new discord.RichEmbed()
             .setTitle("Beste, " + message.author.username.toString())
-            .setDescription("**Vraag nu welk soort bot u wilt** ");
+            .setDescription("**Stel u vraag maar** ");
         settedParent.send(embedParent);
     }).catch(err => {
         message.channel.send("Er is iets fout gelopen.");
