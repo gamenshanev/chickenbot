@@ -33,7 +33,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is nu online en klaar voor gebruik.`);
 
-    bot.user.setActivity(`beautiful chickens`, { type: "WATCHING" });
+    bot.user.setActivity(`mooie kippen`, { type: "WATCHING" });
 	
     bot.on("guildMemberAdd", member => {
         var role = member.guild.roles.find("name", "Lid"); 
