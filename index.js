@@ -33,10 +33,10 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is nu online en klaar voor gebruik.`);
 
-    bot.user.setActivity(`!ticket`, { type: "WATCHING" });
+    bot.user.setActivity(`Mooie kippen`, { type: "WATCHING" });
 	
     bot.on("guildMemberAdd", member => {
-        var role = member.guild.roles.find("name", "Bezoeker"); 
+        var role = member.guild.roles.find("name", "Lid"); 
         if (!role) return;
         member.addRole(role);
  
