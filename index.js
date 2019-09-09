@@ -40,7 +40,7 @@ bot.on("ready", async () => {
         if (!role) return;
         member.addRole(role);
  
-        const channel = member.guild.channels.find("name", "👋welkom-welcome👋");
+        const channel = member.guild.channels.find("name", "👋welkom👋");
         if (!channel) console.log("Kan het kanaal niet vinden.");
      
         var joinEmbed = new discord.RichEmbed()
@@ -57,7 +57,7 @@ bot.on("ready", async () => {
     });
     bot.on("guildMemberRemove", member => {
  
-        const channel = member.guild.channels.find("name", "👋welkom-welcome👋");
+        const channel = member.guild.channels.find("name", "👋welkom👋");
         if (!channel) console.log("Kan het kanaal niet vinden.");
      
         var leaveEmbed = new discord.RichEmbed()
