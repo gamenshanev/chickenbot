@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
 
 let helpMessage = new discord.RichEmbed()
 .setColor("#00ffd5")
-.addField("Commands: ", "Prefix: !!") 
+.addField("Commands: ", "Prefix: !") 
 .addField("warn", "Warn een gebruiker")
 .addField("help", "toon het help menu")
 .addField("kick", "Kick een gebruiker")
