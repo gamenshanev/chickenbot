@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, arguments) => {
 
             var createEmbed = new discord.RichEmbed()
                 .setTitle("Beste, " + message.author.username)
-                .setDescription(`Vraag uw bot aan in <#${settedParent.id}>`)
+                .setDescription(`Stel u vraag in <#${settedParent.id}>`)
                 .setFooter("Je ticket ligt op de lopende band");
     
             message.channel.send(createEmbed);
